@@ -2,6 +2,7 @@ import React from "react";
 import TrackVisibility from "react-on-screen";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
+import { companyDetails } from "../constant";
 const AboutTwo = () => {
   return (
     <div className="space">
@@ -14,14 +15,29 @@ const AboutTwo = () => {
                 About Us
               </span>
               <h2 className="sec-title style2">
-                Maximizing Through the Strategic
+                Empowering Business Growth with Innovative Technology Solutions
               </h2>
               <p className="sec-text">
-                Lorem Ipsum is simply dummy a of the printing and type setting
-                industry Loreaim Ipsum has been the industry's standard dummy
+                Welcome to {companyDetails.name}, where we’re dedicated to
+                helping businesses thrive in the digital age. We offer a wide
+                range of technology solutions designed to foster growth,
+                streamline operations, and improve customer interactions. Our
+                team is committed to delivering top-quality results, ensuring
+                that each project we undertake is tailored to meet your unique
+                needs and objectives.
+                <br />
+                <br />
+                Since our inception, we’ve focused on one thing: innovation.
+                Over the years, we’ve established ourselves as a trusted partner
+                for businesses across industries, delivering expertise in web
+                development, mobile app development, cloud computing,
+                cybersecurity, artificial intelligence, game development, and
+                cloud migration services. We believe in building lasting
+                relationships with our clients, grounded in trust,
+                collaboration, and a shared commitment to success.
               </p>
             </div>
-            <div className="checklist">
+            {/* <div className="checklist">
               <ul>
                 <li>
                   <i className="fas fa-check-circle" />
@@ -39,10 +55,11 @@ const AboutTwo = () => {
             </div>
             <p className="about-desc">
               Lorem Ipsum is simply dummy text of the printing and typesetting
-            </p>
+            </p> */}
             <div className="btn-group">
               <Link to="/about" className="global-btn style2">
-                Explore More <img src="assets/img/icon/right-icon.svg" alt="Bizmaster" />
+                Explore More{" "}
+                <img src="assets/img/icon/right-icon.svg" alt="Bizmaster" />
               </Link>
             </div>
           </div>
@@ -52,9 +69,9 @@ const AboutTwo = () => {
                 <img src="assets/img/normal/about_2-1.jpg" alt="img" />
               </div>
               <div className="about-img-2">
-                <img src="assets/img/normal/about_2-2.png" alt="img" />
+                <img src="assets/img/normal/about_2-2.jpg" alt="img" />
               </div>
-              <div className="about-counter-wrap">
+              {/* <div className="about-counter-wrap">
                 <div className="about-icon">
                   <img src="assets/img/icon/about_icon2-1.svg" alt="img" />
                   <div>
@@ -76,7 +93,7 @@ const AboutTwo = () => {
                 <p className="sec-desc">
                   Lorem Ipsum is simply dummy text of the
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

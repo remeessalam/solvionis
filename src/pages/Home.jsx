@@ -1,11 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
 import HelmetReact from "../elements/HelmetReact";
-import HeaderTwo from "../components/Header";
-import HeroTwo from "../components/HeroTwo";
+import Hero from "../components/Hero";
 import AboutTwo from "../components/AboutTwo";
 import ServiceThree from "../components/ServiceThree";
-import WhyChoose from "../components/WhyChoose";
 import PortfolioTwo from "../components/PortfolioTwo";
 import TestimonialTwo from "../components/TestimonialTwo";
 import CounterOne from "../components/CounterOne";
@@ -18,6 +16,7 @@ import CTATwo from "../components/CTATwo";
 import BlogTwo from "../components/BlogTwo";
 import FooterTwo from "../components/FooterTwo";
 import Header from "../components/Header";
+import OurProcess from "../components/OurProcess";
 
 const HomeTwo = () => {
   let [active, setActive] = useState(true);
@@ -38,7 +37,7 @@ const HomeTwo = () => {
       <Header />
 
       {/* HeroTwo */}
-      <HeroTwo />
+      <Hero />
 
       {/* AboutTwo */}
       <AboutTwo />
@@ -48,38 +47,38 @@ const HomeTwo = () => {
 
       {/* WhyChoose */}
       <div className="space-bottom">
-        <WhyChoose />
+        <OurProcess />
       </div>
 
       {/* PortfolioTwo */}
-      <PortfolioTwo />
+      {/* <PortfolioTwo /> */}
 
       {/* TestimonialTwo */}
       <TestimonialTwo />
 
       {/* CounterOne */}
-      <CounterOne />
+      {/* <CounterOne /> */}
 
       {/* TeamTwo */}
-      <TeamTwo />
+      {/* <TeamTwo /> */}
 
       {/* ClientOne */}
-      <ClientOne />
+      {/* <ClientOne /> */}
 
       {/* EventOne */}
       <EventOne />
 
       {/* PricingOne */}
-      <PricingOne />
+      {/* <PricingOne /> */}
 
       {/* AppointmentOne */}
       <AppointmentOne />
 
       {/* CTA_Two */}
-      <CTATwo />
+      {/* <CTATwo /> */}
 
       {/* BlogTwo */}
-      <BlogTwo />
+      {/* <BlogTwo /> */}
 
       {/* FooterTwo */}
       <FooterTwo />

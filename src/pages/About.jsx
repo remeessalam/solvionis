@@ -7,10 +7,10 @@ import AboutOne from "../components/AboutOne";
 import ProcessThree from "../components/ProcessThree";
 import TestimonialOne from "../components/TestimonialOne";
 import CounterOne from "../components/CounterOne";
-import WhyChoose from "../components/WhyChoose";
 import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import Header from "../components/Header";
+import OurProcess from "../components/OurProcess";
 
 const About = () => {
   let [active, setActive] = useState(true);
@@ -52,7 +52,7 @@ const About = () => {
 
       {/* WhyChoose */}
       <div className="space">
-        <WhyChoose />
+        <OurProcess />
       </div>
 
       {/* Newsletter */}

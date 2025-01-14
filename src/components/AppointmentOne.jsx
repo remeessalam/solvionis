@@ -1,15 +1,33 @@
 import React from "react";
+import { useForm } from "react-hook-form";
 
 const AppointmentOne = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
+  const onSubmit = (data) => {
+    console.log(data);
+  };
   return (
-    <div className="appointment-area-2 space-bottom overflow-hidden">
+    <div className="appointment-area-2 space-bottom space-top overflow-hidden">
       <div className="container">
         <div className="row">
           <div className="col-xl-6">
-            <div className="appointment-thumb-2">
+            <div
+              className="appointment-thumb-2"
+              style={{ height: "100%", maxHeight: "70vh" }}
+            >
               <img
-                src="assets/img/normal/appointment-thumb-2-1.png"
+                src="assets/img/normal/appointment-thumb-2-1.jpg"
                 alt="img"
+                style={{
+                  objectFit: "cover",
+                  borderRadius: "10px",
+                  height: "100%",
+                }}
               />
             </div>
           </div>
@@ -24,9 +42,10 @@ const AppointmentOne = () => {
               </div>
               <form
                 className="appointment-form ajax-contact"
+                onSubmit={handleSubmit(onSubmit)}
               >
                 <div className="row">
-                  <div className=" col-12">
+                  <div className="col-12">
                     <div className="form-group">
                       <input
                         type="text"
@@ -34,11 +53,13 @@ const AppointmentOne = () => {
                         name="name"
                         id="name"
                         placeholder="Full name"
+                        {...register("name", { required: "Name is required" })}
                       />
                       <i className="fas fa-user" />
+                      {errors.name && <span>{errors.name.message}</span>}
                     </div>
                   </div>
-                  <div className=" col-12">
+                  <div className="col-12">
                     <div className="form-group">
                       <input
                         type="text"
@@ -46,25 +67,30 @@ const AppointmentOne = () => {
                         name="email"
                         id="email"
                         placeholder="Your mail"
+                        {...register("email", {
+                          required: "Email is required",
+                          pattern:
+                            /^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/i,
+                        })}
                       />
                       <i className="fas fa-envelope" />
+                      {errors.email && <span>{errors.email.message}</span>}
                     </div>
                   </div>
-                  <div className=" col-12">
+                  <div className="col-12">
                     <div className="form-group">
-                      <select
+                      <input
+                        type="text"
                         name="subject"
                         id="subject"
-                        className="form-select style-border"
-                      >
-                        <option defaultValue={1} >
-                          Subject
-                        </option>
-                        <option value={1}>01</option>
-                        <option value={2}>02</option>
-                        <option value={3}>03</option>
-                      </select>
-                      <i className="fas fa-angle-down" />
+                        className="form-control style-border"
+                        placeholder="Subject"
+                        {...register("subject", {
+                          required: "Subject is required",
+                        })}
+                      />
+                      {/* <i className="fas fa-angle-down" /> */}
+                      {errors.subject && <span>{errors.subject.message}</span>}
                     </div>
                   </div>
                 </div>
@@ -73,11 +99,14 @@ const AppointmentOne = () => {
                     placeholder="Write your message"
                     id="contactForm"
                     className="form-control style-border"
-                    defaultValue={""}
+                    {...register("message", {
+                      required: "Message is required",
+                    })}
                   />
+                  {errors.message && <span>{errors.message.message}</span>}
                 </div>
                 <div className="form-btn col-12">
-                  <button className="global-btn style-border">
+                  <button type="submit" className="global-btn style-border">
                     Send Now
                     <i className="fas fa-arrow-right ms-2" />
                   </button>

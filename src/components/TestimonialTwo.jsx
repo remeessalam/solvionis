@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
+import { companyDetails, testimonials } from "../constant";
 const TestimonialTwo = () => {
   function SampleNextArrow(props) {
     const { onClick } = props;
@@ -75,8 +76,14 @@ const TestimonialTwo = () => {
                 Provide quality a the Services
               </h2>
               <p className="sec-text">
-                Lorem Ipsum is simply dummy a of the printing and type setting
-                industry Loreaim Ipsum has been
+                At {companyDetails.name}, we are driven by a passion for
+                delivering top-notch technology solutions tailored to our
+                clients' needs. But don’t just take our word for it—our clients'
+                experiences and feedback speak for themselves. From web
+                development to cloud migration and everything in between, we’ve
+                had the privilege of helping businesses transform digitally, and
+                we’re proud to share their success stories. Here's what they
+                have to say about working with us:
               </p>
             </div>
             <div className="feature-wrapper">
@@ -88,7 +95,7 @@ const TestimonialTwo = () => {
               <div className="media-body">
                 <span className="header-info_label">Need help?</span>
                 <p className="header-info_link">
-                  <Link to="#">(319) 555-0115</Link>
+                  <Link to="#">{companyDetails.phone}</Link>
                 </p>
               </div>
             </div>
@@ -97,7 +104,32 @@ const TestimonialTwo = () => {
             <div className="testiomonial-wrap-2">
               <div className="row global-carousel slider-shadow testi-slider-2">
                 <Slider {...settings}>
-                  <div>
+                  {testimonials.map((obj) => (
+                    <div>
+                      <div className="testi-box">
+                        <div className="quote-icon">
+                          <img src="assets/img/icon/quote2-1.svg" alt="img" />
+                        </div>
+                        <div className="testi-box_content">
+                          <p className="testi-box_text">{obj.testimonial}</p>
+                          <div className="testi-box-profile">
+                            <div className="testi-box-profile-details">
+                              <h4 className="testi-profile-title">
+                                {obj.name} -{obj.position}
+                              </h4>
+                            </div>
+                            <div className="testi-profile_thumb">
+                              <img
+                                src="assets/img/testimonial/testimonial-2-1.png"
+                                alt="img"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                  {/* <div>
                     <div className="testi-box">
                       <div className="quote-icon">
                         <img src="assets/img/icon/quote2-1.svg" alt="img" />
@@ -124,35 +156,7 @@ const TestimonialTwo = () => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div>
-                    <div className="testi-box">
-                      <div className="quote-icon">
-                        <img src="assets/img/icon/quote2-1.svg" alt="img" />
-                      </div>
-                      <div className="testi-box_content">
-                        <p className="testi-box_text">
-                          There are many variations of passage of Lorem Ipsum
-                          available, but the major have suffered There are many
-                          variations of passages of Lorem Ipsum available, but
-                          the majority have suffered alteration
-                        </p>
-                        <div className="testi-box-profile">
-                          <div className="testi-box-profile-details">
-                            <h4 className="testi-profile-title">
-                              Starli shaine
-                            </h4>
-                          </div>
-                          <div className="testi-profile_thumb">
-                            <img
-                              src="assets/img/testimonial/testimonial-2-1.png"
-                              alt="img"
-                            />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+                  </div> */}
                 </Slider>
               </div>
             </div>

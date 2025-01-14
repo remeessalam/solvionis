@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
+import { whatWeDo } from "../constant";
 const ServiceThree = () => {
   let settings = {
     dots: true,
@@ -60,30 +61,36 @@ const ServiceThree = () => {
       <div className="container-fluid">
         <div className="row gx-30 global-carousel service-slider2">
           <Slider {...settings}>
-            <div className="p-3">
-              <div className="service-box">
-                <div className="service-box_content">
-                  <div className="service-box_icon">
-                    <img src="assets/img/icon/service-icon_1-1.svg" alt="img" />
+            {whatWeDo.map((obj) => (
+              <div className="p-3" key={obj.title}>
+                <div className="service-box">
+                  <div className="service-box_content">
+                    <div className="service-box_icon">
+                      {obj.icon}
+                      {/* <img
+                        src="assets/img/icon/service-icon_1-1.svg"
+                        alt="img"
+                      /> */}
+                    </div>
+                    <h4 className="service-box_title h5">
+                      <Link to="/service-details">{obj.title}</Link>
+                    </h4>
+                    <p className="service-box_text">{obj.description}</p>
+                    <Link
+                      to="/service-details"
+                      className="global-btn style-border"
+                    >
+                      Read More{" "}
+                      <img
+                        src="assets/img/icon/right-icon2.svg"
+                        alt="Bizmaster"
+                      />
+                    </Link>
                   </div>
-                  <h4 className="service-box_title h5">
-                    <Link to="/service-details">Strategic Solutions Pro</Link>
-                  </h4>
-                  <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
-                  </p>
-                  <Link
-                    to="/service-details"
-                    className="global-btn style-border"
-                  >
-                    Read More{" "}
-                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
-                  </Link>
                 </div>
               </div>
-            </div>
-            <div className="p-3">
+            ))}
+            {/* <div className="p-3">
               <div className="service-box">
                 <div className="service-box_content">
                   <div className="service-box_icon">
@@ -101,7 +108,10 @@ const ServiceThree = () => {
                     className="global-btn style-border"
                   >
                     Read More
-                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
+                    <img
+                      src="assets/img/icon/right-icon2.svg"
+                      alt="Bizmaster"
+                    />
                   </Link>
                 </div>
               </div>
@@ -124,7 +134,10 @@ const ServiceThree = () => {
                     className="global-btn style-border"
                   >
                     Read More
-                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
+                    <img
+                      src="assets/img/icon/right-icon2.svg"
+                      alt="Bizmaster"
+                    />
                   </Link>
                 </div>
               </div>
@@ -147,7 +160,10 @@ const ServiceThree = () => {
                     className="global-btn style-border"
                   >
                     Read More
-                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
+                    <img
+                      src="assets/img/icon/right-icon2.svg"
+                      alt="Bizmaster"
+                    />
                   </Link>
                 </div>
               </div>
@@ -170,11 +186,14 @@ const ServiceThree = () => {
                     className="global-btn style-border"
                   >
                     Read More
-                    <img src="assets/img/icon/right-icon2.svg" alt="Bizmaster" />
+                    <img
+                      src="assets/img/icon/right-icon2.svg"
+                      alt="Bizmaster"
+                    />
                   </Link>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Slider>
         </div>
       </div>
