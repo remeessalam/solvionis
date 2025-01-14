@@ -54,7 +54,7 @@ const Header = () => {
         <div className="mobile-menu-area">
           <div className="mobile-logo">
             <Link to="/">
-              <img src="assets/img/logo.png" alt="Bizmaster" />
+              <img src="assets/img/logo.png" alt="SOLVIONIS" />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
               <i className="fa fa-times" />
@@ -146,7 +146,7 @@ const Header = () => {
                       Get A Quote
                       <img
                         src="assets/img/icon/right-icon.svg"
-                        alt="Bizmaster"
+                        alt="SOLVIONIS"
                       />
                     </Link>
                   </div>

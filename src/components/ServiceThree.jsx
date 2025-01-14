@@ -83,7 +83,7 @@ const ServiceThree = () => {
                       Read More{" "}
                       <img
                         src="assets/img/icon/right-icon2.svg"
-                        alt="Bizmaster"
+                        alt="SOLVIONIS"
                       />
                     </Link>
                   </div>
@@ -110,7 +110,7 @@ const ServiceThree = () => {
                     Read More
                     <img
                       src="assets/img/icon/right-icon2.svg"
-                      alt="Bizmaster"
+                      alt="SOLVIONIS"
                     />
                   </Link>
                 </div>
@@ -136,7 +136,7 @@ const ServiceThree = () => {
                     Read More
                     <img
                       src="assets/img/icon/right-icon2.svg"
-                      alt="Bizmaster"
+                      alt="SOLVIONIS"
                     />
                   </Link>
                 </div>
@@ -162,7 +162,7 @@ const ServiceThree = () => {
                     Read More
                     <img
                       src="assets/img/icon/right-icon2.svg"
-                      alt="Bizmaster"
+                      alt="SOLVIONIS"
                     />
                   </Link>
                 </div>
@@ -188,7 +188,7 @@ const ServiceThree = () => {
                     Read More
                     <img
                       src="assets/img/icon/right-icon2.svg"
-                      alt="Bizmaster"
+                      alt="SOLVIONIS"
                     />
                   </Link>
                 </div>

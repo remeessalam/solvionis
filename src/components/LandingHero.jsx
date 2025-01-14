@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 import { companyDetails } from "../constant";
+import { Link as ScrollLink } from "react-scroll";
+
 const LandingHero = ({ isWeb }) => {
   return (
     <>
@@ -20,10 +22,16 @@ const LandingHero = ({ isWeb }) => {
                 : `At ${companyDetails.name}, we build high-performance mobile applications tailored to your business needs. From iOS to Android, our apps deliver intuitive user experiences and robust functionality, empowering your business to connect with customers anytime, anywhere.`}
             </p>
             <div className="btn-group">
-              <Link to="/about" className="global-btn">
+              <ScrollLink
+                to="about"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="global-btn"
+              >
                 Explore More
-                <img src="assets/img/icon/right-icon.svg" alt="Bizmaster" />
-              </Link>
+                <img src="assets/img/icon/right-icon.svg" alt="SOLVIONIS" />
+              </ScrollLink>
             </div>
           </div>
         </div>

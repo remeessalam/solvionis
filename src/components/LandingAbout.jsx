@@ -1,6 +1,6 @@
 import React from "react";
 import { companyDetails } from "../constant";
-import { Link } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll";
 
 const LandingAbout = ({ isWeb }) => {
   return (
@@ -52,10 +52,16 @@ const LandingAbout = ({ isWeb }) => {
             </div>
 
             <div className="btn-group">
-              <Link to="/about" className="global-btn style2">
+              <ScrollLink
+                to="contact"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                className="global-btn style2"
+              >
                 Explore More{" "}
-                <img src="assets/img/icon/right-icon.svg" alt="Bizmaster" />
-              </Link>
+                <img src="assets/img/icon/right-icon.svg" alt="SOLVIONIS" />
+              </ScrollLink>
             </div>
           </div>
           <div className="col-xl-6">
