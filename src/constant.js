@@ -23,7 +23,9 @@ export const companyDetails = {
 
 export const ourServices = [
   {
+    id: 1,
     title: "Web Development",
+    img: "assets/img/services/web.jpg",
     description: "Building Engaging Digital Experiences",
     details:
       "Your website is more than just an online presence; it’s a vital tool that drives growth and engagement. At [Your Company Name], we specialize in designing and developing websites that are not only visually appealing but also functional, responsive, and optimized for performance.",
@@ -36,7 +38,10 @@ export const ourServices = [
     ],
   },
   {
+    id: 2,
     title: "Mobile App Development",
+    img: "assets/img/services/app.jpg",
+
     description: "Connect with Your Customers on the Go",
     details:
       "With mobile technology becoming an essential part of daily life, having a mobile app can set you apart from the competition. At [Your Company Name], we specialize in creating engaging, high-performance mobile applications for both iOS and Android platforms.",
@@ -49,6 +54,9 @@ export const ourServices = [
     ],
   },
   {
+    id: 3,
+    img: "assets/img/services/cloud.jpg",
+
     title: "Cloud Computing Services",
     description: "Scalable, Efficient, and Secure Solutions",
     details:
@@ -62,7 +70,10 @@ export const ourServices = [
     ],
   },
   {
+    id: 4,
     title: "Game Development",
+    img: "assets/img/services/game.jpg",
+
     description: "Crafting Immersive Digital Worlds",
     details:
       "At [Your Company Name], we understand that gaming is about more than just entertainment; it’s about creating experiences that captivate and engage users.",
@@ -75,7 +86,10 @@ export const ourServices = [
     ],
   },
   {
+    id: 5,
     title: "Cybersecurity Services",
+    img: "assets/img/services/security.jpg",
+
     description: "Protecting Your Digital Assets",
     details:
       "As cyber threats become more sophisticated, protecting your business’s data and systems has never been more critical. At [Your Company Name], we offer comprehensive cybersecurity solutions designed to safeguard your company’s digital assets.",
@@ -88,7 +102,10 @@ export const ourServices = [
     ],
   },
   {
+    id: 6,
     title: "Artificial Intelligence (AI)",
+    img: "assets/img/services/ai.jpg",
+
     description: "Smart Solutions for Smarter Business",
     details:
       "Artificial Intelligence is transforming industries by automating processes, improving decision-making, and enhancing customer experiences. At [Your Company Name], we help businesses harness the power of AI to innovate, optimize, and stay competitive.",
@@ -101,7 +118,9 @@ export const ourServices = [
     ],
   },
   {
+    id: 7,
     title: "Cloud Migration Services",
+    img: "assets/img/services/migration.jpg",
     description: "Smooth and Seamless Transitions",
     details:
       "Migrating to the cloud can provide your business with better scalability, security, and cost efficiency. At [Your Company Name], we specialize in cloud migration services that make the transition smooth and hassle-free.",

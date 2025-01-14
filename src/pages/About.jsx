@@ -11,6 +11,11 @@ import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import Header from "../components/Header";
 import OurProcess from "../components/OurProcess";
+import AboutTwo from "../components/AboutTwo";
+import TestimonialTwo from "../components/TestimonialTwo";
+import EventOne from "../components/EventOne";
+import OurStory from "../components/OurStory";
+import WhatDrivesUs from "../components/WhatDrivesUs";
 
 const About = () => {
   let [active, setActive] = useState(true);
@@ -34,30 +39,27 @@ const About = () => {
       <Breadcrumb title="About Us" />
 
       {/* GoalArea */}
-      <GoalArea />
+      {/* <GoalArea /> */}
 
-      {/* AboutOne */}
-      <AboutOne />
-
+      {/* AboutTwo */}
+      <AboutTwo />
+      <OurStory />
       {/* ProcessThree */}
-      <ProcessThree />
+      {/* <ProcessThree /> */}
 
-      {/* TestimonialOne */}
-      <div className="space">
-        <TestimonialOne />
-      </div>
+      {/* TestimonialTwo */}
 
       {/* CounterOne */}
-      <CounterOne />
-
+      {/* <CounterOne /> */}
+      <WhatDrivesUs />
       {/* WhyChoose */}
       <div className="space">
         <OurProcess />
       </div>
-
-      {/* Newsletter */}
-      <Newsletter />
-
+      <EventOne />
+      <div className="space">
+        <TestimonialTwo />
+      </div>
       {/* FooterOne */}
       <FooterOne />
     </>

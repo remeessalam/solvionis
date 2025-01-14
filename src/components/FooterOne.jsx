@@ -14,7 +14,11 @@ const FooterOne = () => {
               <div className="widget footer-widget widget-about">
                 <div className="about-logo">
                   <Link to="/">
-                    <img src="assets/img/logo-white.svg" alt="Bizmaster" />
+                    <img
+                      src="/assets/img/logo.png"
+                      alt="solvionis"
+                      style={{ height: "6rem", paddingTop: "1rem" }}
+                    />
                   </Link>
                 </div>
                 <p className="footer-text mb-30">
@@ -74,9 +78,7 @@ const FooterOne = () => {
                     <i className="fas fa-envelope" />
                     <div className="contact-grid-details">
                       <h6>
-                        <Link to="#">
-                          yourmail@gmail.com
-                        </Link>
+                        <Link to="#">yourmail@gmail.com</Link>
                         <p />
                       </h6>
                     </div>

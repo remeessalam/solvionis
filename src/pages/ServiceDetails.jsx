@@ -6,6 +6,8 @@ import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import ServiceInnerDetails from "../components/ServiceInnerDetails";
 import Header from "../components/Header";
+import { useParams } from "react-router-dom";
+import { ourServices } from "../constant";
 
 const ServiceDetails = () => {
   let [active, setActive] = useState(true);
@@ -14,6 +16,9 @@ const ServiceDetails = () => {
       setActive(false);
     }, 500);
   }, []);
+  const { id } = useParams();
+  const service = ourServices[id - 1];
+  console.log(service, "asdfkasjdf");
   return (
     <>
       {/* Preloader */}
@@ -29,10 +34,10 @@ const ServiceDetails = () => {
       <Breadcrumb title="Service Details" />
 
       {/* ServiceDetails */}
-      <ServiceInnerDetails />
+      <ServiceInnerDetails service={service} />
 
       {/* Newsletter */}
-      <Newsletter />
+      {/* <Newsletter /> */}
 
       {/* FooterOne */}
       <FooterOne />

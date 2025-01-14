@@ -12,7 +12,7 @@ const OurProcess = () => {
                 Our Process
               </span>
               <h2 className="sec-title style2">
-                Our Approach: Strategic, Collaborative, and Client-Focused
+                Strategic, Collaborative, and Client-Focused
               </h2>
             </div>
           </div>

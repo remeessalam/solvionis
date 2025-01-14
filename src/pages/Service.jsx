@@ -7,6 +7,7 @@ import Newsletter from "../components/Newsletter";
 import ServiceView from "../components/ServiceView";
 import AppointmentTwo from "../components/AppointmentTwo";
 import Header from "../components/Header";
+import AppointmentOne from "../components/AppointmentOne";
 
 const Service = () => {
   let [active, setActive] = useState(true);
@@ -32,11 +33,11 @@ const Service = () => {
       {/* ServiceOne */}
       <ServiceView />
 
-      {/* AppointmentTwo */}
-      <AppointmentTwo />
+      {/* AppointmentOne */}
+      <AppointmentOne />
 
       {/* Newsletter */}
-      <Newsletter />
+      {/* <Newsletter /> */}
 
       {/* FooterOne */}
       <FooterOne />
