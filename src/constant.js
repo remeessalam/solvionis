@@ -39,7 +39,7 @@ export const ourServices = [
     img: "assets/img/services/web.jpg",
     description: "Building Engaging Digital Experiences",
     details:
-      "Your website is more than just an online presence; it’s a vital tool that drives growth and engagement. At [Your Company Name], we specialize in designing and developing websites that are not only visually appealing but also functional, responsive, and optimized for performance.",
+      "Your website is more than just an online presence; it’s a vital tool that drives growth and engagement. At SOLVIONIS, we specialize in designing and developing websites that are not only visually appealing but also functional, responsive, and optimized for performance.",
     services: [
       "Custom website design and development",
       "E-commerce platforms and solutions",
@@ -55,7 +55,7 @@ export const ourServices = [
 
     description: "Connect with Your Customers on the Go",
     details:
-      "With mobile technology becoming an essential part of daily life, having a mobile app can set you apart from the competition. At [Your Company Name], we specialize in creating engaging, high-performance mobile applications for both iOS and Android platforms.",
+      "With mobile technology becoming an essential part of daily life, having a mobile app can set you apart from the competition. At SOLVIONIS, we specialize in creating engaging, high-performance mobile applications for both iOS and Android platforms.",
     services: [
       "Native and cross-platform development",
       "UI/UX design focused on user-centric experiences",
@@ -71,7 +71,7 @@ export const ourServices = [
     title: "Cloud Computing Services",
     description: "Scalable, Efficient, and Secure Solutions",
     details:
-      "The cloud offers businesses unparalleled flexibility, cost savings, and scalability. At [Your Company Name], we help you leverage the cloud to streamline your operations, improve collaboration, and reduce overhead costs.",
+      "The cloud offers businesses unparalleled flexibility, cost savings, and scalability. At SOLVIONIS, we help you leverage the cloud to streamline your operations, improve collaboration, and reduce overhead costs.",
     services: [
       "Cloud infrastructure management",
       "Data storage and backup solutions",
@@ -87,7 +87,7 @@ export const ourServices = [
 
     description: "Crafting Immersive Digital Worlds",
     details:
-      "At [Your Company Name], we understand that gaming is about more than just entertainment; it’s about creating experiences that captivate and engage users.",
+      "At SOLVIONIS, we understand that gaming is about more than just entertainment; it’s about creating experiences that captivate and engage users.",
     services: [
       "2D and 3D game design and development",
       "Mobile, console, and PC games",
@@ -103,7 +103,7 @@ export const ourServices = [
 
     description: "Protecting Your Digital Assets",
     details:
-      "As cyber threats become more sophisticated, protecting your business’s data and systems has never been more critical. At [Your Company Name], we offer comprehensive cybersecurity solutions designed to safeguard your company’s digital assets.",
+      "As cyber threats become more sophisticated, protecting your business’s data and systems has never been more critical. At SOLVIONIS, we offer comprehensive cybersecurity solutions designed to safeguard your company’s digital assets.",
     services: [
       "Security audits and vulnerability assessments",
       "Endpoint protection and malware prevention",
@@ -119,7 +119,7 @@ export const ourServices = [
 
     description: "Smart Solutions for Smarter Business",
     details:
-      "Artificial Intelligence is transforming industries by automating processes, improving decision-making, and enhancing customer experiences. At [Your Company Name], we help businesses harness the power of AI to innovate, optimize, and stay competitive.",
+      "Artificial Intelligence is transforming industries by automating processes, improving decision-making, and enhancing customer experiences. At SOLVIONIS, we help businesses harness the power of AI to innovate, optimize, and stay competitive.",
     services: [
       "Machine learning and deep learning applications",
       "Predictive analytics and data-driven insights",
@@ -134,7 +134,7 @@ export const ourServices = [
     img: "assets/img/services/migration.jpg",
     description: "Smooth and Seamless Transitions",
     details:
-      "Migrating to the cloud can provide your business with better scalability, security, and cost efficiency. At [Your Company Name], we specialize in cloud migration services that make the transition smooth and hassle-free.",
+      "Migrating to the cloud can provide your business with better scalability, security, and cost efficiency. At SOLVIONIS, we specialize in cloud migration services that make the transition smooth and hassle-free.",
     services: [
       "Cloud readiness assessment",
       "Data migration and synchronization",
@@ -231,7 +231,7 @@ export const testimonials = [
   {
     service: "Web Development",
     testimonial:
-      "Our experience with [Your Company Name] was outstanding. They took the time to understand our vision and created a website that not only looks fantastic but also functions seamlessly. The team’s ability to integrate modern design with user-friendly features has helped us improve customer engagement and boost online sales. We’ve received positive feedback from both our customers and our team about how easy it is to navigate. They truly exceeded our expectations!",
+      "Our experience with SOLVIONIS was outstanding. They took the time to understand our vision and created a website that not only looks fantastic but also functions seamlessly. The team’s ability to integrate modern design with user-friendly features has helped us improve customer engagement and boost online sales. We’ve received positive feedback from both our customers and our team about how easy it is to navigate. They truly exceeded our expectations!",
     name: "Emily Lawson",
     position: "Marketing Director",
     company: "GreenTech Solutions",
@@ -239,7 +239,7 @@ export const testimonials = [
   {
     service: "Mobile App Development",
     testimonial:
-      "Partnering with [Your Company Name] for our mobile app development was one of the best decisions we made. Their team was proactive, creative, and delivered an app that fits perfectly with our brand. The final product is intuitive, responsive, and has significantly improved how we interact with our customers. Our app has led to a notable increase in sales and customer retention. We couldn't be more pleased with the results and the level of support we continue to receive.",
+      "Partnering with SOLVIONIS for our mobile app development was one of the best decisions we made. Their team was proactive, creative, and delivered an app that fits perfectly with our brand. The final product is intuitive, responsive, and has significantly improved how we interact with our customers. Our app has led to a notable increase in sales and customer retention. We couldn't be more pleased with the results and the level of support we continue to receive.",
     name: "Michael Walker",
     position: "CEO",
     company: "ShopSmart",
@@ -247,7 +247,7 @@ export const testimonials = [
   {
     service: "Cloud Computing Services",
     testimonial:
-      "After facing numerous challenges with our in-house servers, we turned to [Your Company Name] for cloud computing solutions. From day one, their team was incredibly knowledgeable and guided us through the process with ease. They helped us migrate to the cloud with minimal disruption, and now we enjoy greater flexibility, reduced costs, and improved operational efficiency. It’s been a game-changer for our company, and we’re grateful for their expertise.",
+      "After facing numerous challenges with our in-house servers, we turned to SOLVIONIS for cloud computing solutions. From day one, their team was incredibly knowledgeable and guided us through the process with ease. They helped us migrate to the cloud with minimal disruption, and now we enjoy greater flexibility, reduced costs, and improved operational efficiency. It’s been a game-changer for our company, and we’re grateful for their expertise.",
     name: "Samantha Hayes",
     position: "CTO",
     company: "InnovateTech Solutions",
@@ -255,7 +255,7 @@ export const testimonials = [
   {
     service: "Game Development",
     testimonial:
-      "Our game concept was a dream, but bringing it to life felt like a huge challenge. [Your Company Name] transformed that dream into a reality. From design to development, their team was with us every step of the way. The end result was a fully immersive, high-quality game that exceeded our expectations. The feedback from players has been overwhelmingly positive, and it’s had great success in the market. We look forward to collaborating with them again on future projects.",
+      "Our game concept was a dream, but bringing it to life felt like a huge challenge. SOLVIONIS transformed that dream into a reality. From design to development, their team was with us every step of the way. The end result was a fully immersive, high-quality game that exceeded our expectations. The feedback from players has been overwhelmingly positive, and it’s had great success in the market. We look forward to collaborating with them again on future projects.",
     name: "James Bennett",
     position: "Founder",
     company: "EpicGames Studios",
@@ -263,7 +263,7 @@ export const testimonials = [
   {
     service: "Cybersecurity Services",
     testimonial:
-      "As a financial institution, safeguarding our systems is critical. [Your Company Name] provided us with robust cybersecurity solutions that give us confidence every day. Their thorough risk assessments and continuous monitoring have greatly improved our overall security posture. With their help, we’ve been able to safeguard our sensitive data and protect our customers from potential threats. Their professionalism and expertise have been invaluable.",
+      "As a financial institution, safeguarding our systems is critical. SOLVIONIS provided us with robust cybersecurity solutions that give us confidence every day. Their thorough risk assessments and continuous monitoring have greatly improved our overall security posture. With their help, we’ve been able to safeguard our sensitive data and protect our customers from potential threats. Their professionalism and expertise have been invaluable.",
     name: "David Ross",
     position: "Chief Information Security Officer",
     company: "SecureBank",
@@ -271,7 +271,7 @@ export const testimonials = [
   {
     service: "Artificial Intelligence (AI)",
     testimonial:
-      "Implementing AI was a key goal for our company, and [Your Company Name] delivered on every front. Their team helped us develop a customized AI solution that streamlines our customer support through an advanced chatbot, while also enhancing our ability to analyze data and make better decisions. The results have been phenomenal—our customer satisfaction has improved, and we've experienced a noticeable increase in operational efficiency. Their expertise in AI has truly revolutionized the way we work.",
+      "Implementing AI was a key goal for our company, and SOLVIONIS delivered on every front. Their team helped us develop a customized AI solution that streamlines our customer support through an advanced chatbot, while also enhancing our ability to analyze data and make better decisions. The results have been phenomenal—our customer satisfaction has improved, and we've experienced a noticeable increase in operational efficiency. Their expertise in AI has truly revolutionized the way we work.",
     name: "Laura Grant",
     position: "Director of Customer Experience",
     company: "HealthCare Plus",
@@ -279,7 +279,7 @@ export const testimonials = [
   {
     service: "Cloud Migration Services",
     testimonial:
-      "Migrating to the cloud was a big move for our company, but [Your Company Name] made the process smooth and stress-free. They handled every detail, from assessing our needs to transferring our data and systems without disrupting our daily operations. Since completing the migration, we’ve experienced greater agility, scalability, and cost savings. We now have a cloud environment that meets our business needs, thanks to their expert team.",
+      "Migrating to the cloud was a big move for our company, but SOLVIONIS made the process smooth and stress-free. They handled every detail, from assessing our needs to transferring our data and systems without disrupting our daily operations. Since completing the migration, we’ve experienced greater agility, scalability, and cost savings. We now have a cloud environment that meets our business needs, thanks to their expert team.",
     name: "Roberta Harris",
     position: "IT Manager",
     company: "Global Enterprises",
