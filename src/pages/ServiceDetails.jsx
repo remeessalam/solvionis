@@ -2,12 +2,11 @@ import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
 import HelmetReact from "../elements/HelmetReact";
 import Breadcrumb from "../components/Breadcrumb";
-import FooterOne from "../components/FooterOne";
-import Newsletter from "../components/Newsletter";
 import ServiceInnerDetails from "../components/ServiceInnerDetails";
 import Header from "../components/Header";
 import { useParams } from "react-router-dom";
 import { ourServices } from "../constant";
+import Footer from "../components/Footer";
 
 const ServiceDetails = () => {
   let [active, setActive] = useState(true);
@@ -40,7 +39,7 @@ const ServiceDetails = () => {
       {/* <Newsletter /> */}
 
       {/* FooterOne */}
-      <FooterOne />
+      <Footer />
     </>
   );
 };

@@ -14,9 +14,9 @@ import PricingOne from "../components/PricingOne";
 import AppointmentOne from "../components/AppointmentOne";
 import CTATwo from "../components/CTATwo";
 import BlogTwo from "../components/BlogTwo";
-import FooterTwo from "../components/FooterTwo";
 import Header from "../components/Header";
 import OurProcess from "../components/OurProcess";
+import Footer from "../components/Footer";
 
 const HomeTwo = () => {
   let [active, setActive] = useState(true);
@@ -81,7 +81,7 @@ const HomeTwo = () => {
       {/* <BlogTwo /> */}
 
       {/* FooterTwo */}
-      <FooterTwo />
+      <Footer />
     </>
   );
 };

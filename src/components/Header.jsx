@@ -75,7 +75,7 @@ const Header = () => {
                 {/* <Link to="/service-details">Service Details</Link> */}
               </li>
               <li className="menu-item-has-children">
-                <Link to="/blog">Blog</Link>
+                <Link to="/">Blog</Link>
                 {/* <Link to="/blog-details">Blog Details</Link> */}
               </li>
               <li>
@@ -121,7 +121,7 @@ const Header = () => {
                       </li>
 
                       <li>
-                        <Link to="/blog">Blog</Link>
+                        <Link to="/">Blog</Link>
                         {/* <Link to="/blog-details">Blog Details</Link> */}
                       </li>
 

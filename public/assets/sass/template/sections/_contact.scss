@@ -2,6 +2,9 @@
 .contact-page-wrap {
     border-radius: 20px;
     padding: 40px 60px;
+    @media (max-width: 580px) {
+        padding:40px 20px;
+    }
 }
 .contact-info {
     display: inline-flex;

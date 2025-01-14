@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import Preloader from "../elements/Preloader";
 import HelmetReact from "../elements/HelmetReact";
 import Breadcrumb from "../components/Breadcrumb";
-import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import BlogAreaAll from "../components/BlogAreaAll";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const Blog = () => {
   let [active, setActive] = useState(true);
@@ -36,7 +36,7 @@ const Blog = () => {
       <Newsletter />
 
       {/* FooterOne */}
-      <FooterOne />
+      <Footer />
     </>
   );
 };

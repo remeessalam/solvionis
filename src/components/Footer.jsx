@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { companyDetails } from "../constant";
 
-const FooterOne = () => {
+const Footer = () => {
   return (
     <footer
       className="footer-wrapper footer-layout1"
@@ -22,8 +23,9 @@ const FooterOne = () => {
                   </Link>
                 </div>
                 <p className="footer-text mb-30">
-                  Many desktop ublishing packages web page editors no Lorem
-                  Ipsum a default model text, and a search for
+                  Thank you for considering {companyDetails.name} as your
+                  partner. We’re excited to help your business grow, and we look
+                  forward to hearing from you soon.
                 </p>
                 <div className="social-btn style3">
                   <Link to="#" tabIndex={-1}>
@@ -47,16 +49,16 @@ const FooterOne = () => {
                 <div className="menu-all-pages-container">
                   <ul className="menu">
                     <li>
-                      <Link to="/service">Software Corner</Link>
+                      <Link to="/">Home</Link>
                     </li>
                     <li>
-                      <Link to="/service">Application Center</Link>
+                      <Link to="/about">About</Link>
                     </li>
                     <li>
-                      <Link to="/service">Research Section</Link>
+                      <Link to="/service">Service</Link>
                     </li>
                     <li>
-                      <Link to="/service">Developing Corner</Link>
+                      <Link to="/contact">Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -70,7 +72,7 @@ const FooterOne = () => {
                     <i className="fas fa-phone-alt" />
                     <div className="contact-grid-details">
                       <h6>
-                        <Link to="#">+880 123 45 67 89</Link>
+                        <Link to="#">{companyDetails.phone}</Link>
                       </h6>
                     </div>
                   </div>
@@ -78,7 +80,7 @@ const FooterOne = () => {
                     <i className="fas fa-envelope" />
                     <div className="contact-grid-details">
                       <h6>
-                        <Link to="#">yourmail@gmail.com</Link>
+                        <Link to="#">{companyDetails.email}</Link>
                         <p />
                       </h6>
                     </div>
@@ -87,7 +89,7 @@ const FooterOne = () => {
                     <i className="fas fa-map-marker-alt" />
                     <div className="contact-grid-details">
                       <h6>
-                        1212, Lav Vegas, The Veg Street, USA
+                        {companyDetails.address}
                         <p />
                       </h6>
                     </div>
@@ -98,12 +100,12 @@ const FooterOne = () => {
           </div>
         </div>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <div className="copyright-wrap">
           <div className="row gy-3 justify-content-lg-between justify-content-center">
             <div className="col-auto align-self-center">
               <p className="copyright-text text-center">
-                © <Link to="#">Bizmaster </Link> 2024 | All Rights Reserved
+                © <Link to="#">2q </Link> 2024 | All Rights Reserved
               </p>
             </div>
             <div className="col-auto">
@@ -116,9 +118,9 @@ const FooterOne = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };
 
-export default FooterOne;
+export default Footer;

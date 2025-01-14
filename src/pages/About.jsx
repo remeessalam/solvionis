@@ -7,7 +7,6 @@ import AboutOne from "../components/AboutOne";
 import ProcessThree from "../components/ProcessThree";
 import TestimonialOne from "../components/TestimonialOne";
 import CounterOne from "../components/CounterOne";
-import FooterOne from "../components/FooterOne";
 import Newsletter from "../components/Newsletter";
 import Header from "../components/Header";
 import OurProcess from "../components/OurProcess";
@@ -16,6 +15,7 @@ import TestimonialTwo from "../components/TestimonialTwo";
 import EventOne from "../components/EventOne";
 import OurStory from "../components/OurStory";
 import WhatDrivesUs from "../components/WhatDrivesUs";
+import Footer from "../components/Footer";
 
 const About = () => {
   let [active, setActive] = useState(true);
@@ -61,7 +61,7 @@ const About = () => {
         <TestimonialTwo />
       </div>
       {/* FooterOne */}
-      <FooterOne />
+      <Footer />
     </>
   );
 };
