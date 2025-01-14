@@ -17,7 +17,7 @@ const App = () => {
         <RouteScrollToTop />
         <ScrollToTop smooth color="#196164" />
         <Routes>
-          <Route exact path="/home-2" element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/service" element={<Service />} />
           <Route exact path="/service-details" element={<ServiceDetails />} />

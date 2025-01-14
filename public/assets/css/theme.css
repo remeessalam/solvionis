@@ -3809,9 +3809,11 @@ a.text-theme:hover,
 }
 
 .header-logo {
+
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 
 .header-links > ul {
   margin: 0;

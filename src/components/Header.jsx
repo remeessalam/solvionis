@@ -54,7 +54,7 @@ const Header = () => {
         <div className="mobile-menu-area">
           <div className="mobile-logo">
             <Link to="/">
-              <img src="assets/img/logo.svg" alt="Bizmaster" />
+              <img src="assets/img/logo.png" alt="Bizmaster" />
             </Link>
             <button className="menu-toggle" onClick={mobileMenu}>
               <i className="fa fa-times" />
@@ -63,75 +63,20 @@ const Header = () => {
           <div className="mobile-menu">
             <ul id="offcanvas-navigation">
               <li className="menu-item-has-children submenu-item-has-children">
-                <Link to="#">Home</Link>
-                <ul className="sub-menu submenu-class">
-                  <li>
-                    <Link to="/">Home 01</Link>
-                  </li>
-                  <li>
-                    <Link to="/home-2">Home 02</Link>
-                  </li>
-                  <li>
-                    <Link to="/home-3">Home 03</Link>
-                  </li>
-                  <li>
-                    <Link to="/home-4">Home 04</Link>
-                  </li>
-                  <li>
-                    <Link to="/home-5">Home 05</Link>
-                  </li>
-                </ul>
+                <Link to="/">Home</Link>
               </li>
 
               <li>
                 <Link to="/about">About</Link>
               </li>
+
               <li className="menu-item-has-children">
-                <Link to="#">Pages</Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link to="/pricing">Pricing Page</Link>
-                  </li>
-                  <li>
-                    <Link to="/team">Team</Link>
-                  </li>
-                  <li>
-                    <Link to="/team-details">Team Details</Link>
-                  </li>
-                </ul>
+                <Link to="/service">Service</Link>
+                {/* <Link to="/service-details">Service Details</Link> */}
               </li>
               <li className="menu-item-has-children">
-                <Link to="#">Project</Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link to="/project">Projects</Link>
-                  </li>
-                  <li>
-                    <Link to="/project-details">Project Details</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <Link to="#">Service</Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link to="/service">Service</Link>
-                  </li>
-                  <li>
-                    <Link to="/service-details">Service Details</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className="menu-item-has-children">
-                <Link to="#">Blog</Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link to="/blog">Blog</Link>
-                  </li>
-                  <li>
-                    <Link to="/blog-details">Blog Details</Link>
-                  </li>
-                </ul>
+                <Link to="/blog">Blog</Link>
+                {/* <Link to="/blog-details">Blog Details</Link> */}
               </li>
               <li>
                 <Link to="/contact">Contact</Link>
@@ -152,87 +97,34 @@ const Header = () => {
                 <div className="col-auto">
                   <div className="header-logo">
                     <Link to="/">
-                      <img src="assets/img/logo.svg" alt="logo" />
+                      <img
+                        src="assets/img/logo.png"
+                        alt="logo"
+                        style={{ height: "5rem", paddingTop: "1rem" }}
+                      />
                     </Link>
                   </div>
                 </div>
                 <div className="col-auto">
                   <nav className="main-menu d-none d-lg-inline-block">
                     <ul>
-                      <li className="menu-item-has-children">
-                        <Link to="#">Home</Link>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link to="/">Home 01</Link>
-                          </li>
-                          <li>
-                            <Link to="/home-2">Home 02</Link>
-                          </li>
-                          <li>
-                            <Link to="/home-3">Home 03</Link>
-                          </li>
-                          <li>
-                            <Link to="/home-4">Home 04</Link>
-                          </li>
-                          <li>
-                            <Link to="/home-5">Home 05</Link>
-                          </li>
-                        </ul>
+                      <li className="">
+                        <Link to="/">Home</Link>
                       </li>
 
                       <li>
                         <Link to="/about">About Us</Link>
                       </li>
-                      <li className="menu-item-has-children">
-                        <Link to="#">Services</Link>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link to="/service">Service</Link>
-                          </li>
-                          <li>
-                            <Link to="/service-details">Service Details</Link>
-                          </li>
-                        </ul>
+                      <li className="">
+                        <Link to="/service">Services</Link>
+                        {/* <Link to="/service-details">Service Details</Link> */}
                       </li>
-                      <li className="menu-item-has-children">
-                        <Link to="#">Projects</Link>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link to="/project">Projects</Link>
-                          </li>
-                          <li>
-                            <Link to="/project-details">Projects Details</Link>
-                          </li>
-                        </ul>
+
+                      <li>
+                        <Link to="/blog">Blog</Link>
+                        {/* <Link to="/blog-details">Blog Details</Link> */}
                       </li>
-                      <li className="menu-item-has-children">
-                        <Link to="#">Blog</Link>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link to="/blog">Blog</Link>
-                          </li>
-                          <li>
-                            <Link to="/blog-details">Blog Details</Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <Link to="#">Pages</Link>
-                        <ul className="sub-menu">
-                          <li>
-                            <Link to="/pricing">Pricing Page</Link>
-                          </li>
-                          <li>
-                            <Link to="/team">Team</Link>
-                          </li>
-                          <li>
-                            <Link to="/team-details">Team Details</Link>
-                          </li>
-                          <li>
-                            <Link to="/contact">Contact Page</Link>
-                          </li>
-                        </ul>
-                      </li>
+
                       <li>
                         <Link to="/contact">Contact</Link>
                       </li>
@@ -248,7 +140,7 @@ const Header = () => {
                     </button>
                   </div>
                 </div>
-                <div className="col-auto d-xl-block d-none">
+                {/* <div className="col-auto d-xl-block d-none">
                   <div className="header-button">
                     <Link to="/contact" className="global-btn">
                       Get A Quote
@@ -258,7 +150,7 @@ const Header = () => {
                       />
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
