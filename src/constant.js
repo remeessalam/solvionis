@@ -13,6 +13,17 @@ import {
   FaHandsHelping,
 } from "react-icons/fa";
 
+// web development image
+import ecommerce from "./assets/images/landingpage/ecommerce.jpg";
+import socialmedia from "./assets/images/landingpage/socialmedia.jpg";
+import landingpage from "./assets/images/landingpage/landingpage.jpg";
+import customer from "./assets/images/landingpage/custome.jpg";
+
+//app development  images
+import iosapp from "./assets/images/landingpage/iosapp.jpg";
+import androidapp from "./assets/images/landingpage/androidapp.jpg";
+import flutterapp from "./assets/images/landingpage/flutterapp.jpg";
+import hybridapp from "./assets/images/landingpage/hybridapp.jpg";
 export const companyDetails = {
   name: "SOLVIONIS",
   email: "example@abc.com",
@@ -272,5 +283,67 @@ export const testimonials = [
     name: "Roberta Harris",
     position: "IT Manager",
     company: "Global Enterprises",
+  },
+];
+
+export const webservices = [
+  {
+    id: 1,
+    img: ecommerce,
+    title: "E-commerce Website Development",
+    description:
+      "Build responsive and scalable e-commerce platforms that enhance user experience and drive sales.",
+  },
+  {
+    id: 2,
+    img: socialmedia,
+    title: "Social Media Website Development",
+    description:
+      "Create dynamic social media platforms with engaging features that foster interaction and community building.",
+  },
+  {
+    id: 3,
+    img: landingpage,
+    title: "Landing Page Design & Development",
+    description:
+      "Design visually compelling landing pages that capture leads, increase conversions, and boost your digital marketing efforts.",
+  },
+  {
+    id: 4,
+    img: customer,
+    title: "Customer-Focused Website Solutions",
+    description:
+      "Develop custom websites tailored to your brand and customer needs, ensuring a seamless user experience and optimal performance.",
+  },
+];
+
+export const appDevelopment = [
+  {
+    id: 1,
+    img: iosapp,
+    title: "iOS App Development",
+    description:
+      "We specialize in building seamless and high-performance iOS applications tailored to your business needs, ensuring a smooth user experience and integration with the latest Apple technologies.",
+  },
+  {
+    id: 2,
+    img: androidapp,
+    title: "Android App Development",
+    description:
+      "Our Android app development services create powerful and intuitive mobile apps for Android devices, ensuring they are fast, secure, and optimized for a wide range of devices.",
+  },
+  {
+    id: 3,
+    img: flutterapp,
+    title: "Flutter App Development",
+    description:
+      "Harness the power of Flutter to build cross-platform apps that run seamlessly on both iOS and Android, offering performance, flexibility, and native-like user experiences.",
+  },
+  {
+    id: 4,
+    img: hybridapp,
+    title: "Hybrid App Development",
+    description:
+      "Create hybrid mobile apps that combine the best of native and web technologies, offering cost-effective, scalable, and high-performance apps for both iOS and Android platforms.",
   },
 ];

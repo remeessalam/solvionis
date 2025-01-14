@@ -9,6 +9,7 @@ import ServiceDetails from "./pages/ServiceDetails";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Error from "./pages/Error";
+import Landingpage from "./pages/Landingpage";
 
 const App = () => {
   return (
@@ -24,6 +25,16 @@ const App = () => {
           {/* <Route exact path="/blog" element={<Blog />} /> */}
           {/* <Route exact path="/blog-details" element={<BlogDetails />} /> */}
           <Route exact path="/contact" element={<Contact />} />
+          <Route
+            exact
+            path="/web-development"
+            element={<Landingpage page={"web"} />}
+          />
+          <Route
+            exact
+            path="/app-development"
+            element={<Landingpage page={"app"} />}
+          />
           <Route exact path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>

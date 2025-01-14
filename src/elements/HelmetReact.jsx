@@ -1,15 +1,13 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import { companyDetails } from "../constant";
 const HelmetReact = ({ title }) => {
   return (
     <Helmet>
       <title>
-        {title} || Bizmaster - Business Consulting React Js Template
+        {title} || {companyDetails.name}
       </title>
-      <meta
-        name="description"
-        content="Bizmaster - Business Consulting React Js Template"
-      />
+      <meta name="description" content={companyDetails.name} />
     </Helmet>
   );
 };
