@@ -34,7 +34,7 @@ const AppointmentOne = () => {
           <div className="col-xl-6">
             <div className="appointment-form-wrap">
               <div className="title-area mb-30">
-                <span className="sub-title">
+                <span className="sub-title mt-5 mt-xl-0">
                   <img src="assets/img/icon/title_left.svg" alt="shape" />
                   Talk to Us
                 </span>

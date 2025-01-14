@@ -4,7 +4,7 @@ import { companyDetails, whyChooseUs } from "../constant";
 const EventOne = () => {
   return (
     <div className="event-area-1 bg-smoke">
-      <div className="container">
+      <div className="container" style={{ overflow: "hidden" }}>
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="event-wrapp">
@@ -75,10 +75,19 @@ const EventOne = () => {
               </div> */}
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 mt-5 mt-xl-0">
             <div className="event-image">
-              <div className="event-thumb-1">
-                <img src="assets/img/normal/event-thumb-1-1.jpg" alt="img" />
+              <div className="event-thumb-">
+                <img
+                  src="assets/img/normal/event-thumb-1-1.jpg"
+                  alt="img"
+                  style={{
+                    maxHeight: "70vh",
+                    width: "100%",
+                    objectFit: "cover",
+                    borderRadius: "10px",
+                  }}
+                />
               </div>
               {/* <div className="event-shape">
                 <img src="assets/img/normal/event-shape.png" alt="Bizmaster" />
