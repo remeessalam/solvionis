@@ -5,7 +5,9 @@
   top: 0;
   bottom: 0;
   z-index: 999;
-  background-color: $title-color;
+  // background-color: $title-color;
+  // background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.357);
 
   .btn {
     padding: 15px 20px;

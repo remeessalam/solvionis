@@ -26,10 +26,13 @@ import flutterapp from "./assets/images/landingpage/flutterapp.jpg";
 import hybridapp from "./assets/images/landingpage/hybridapp.jpg";
 export const companyDetails = {
   name: "SOLVIONIS",
-  email: "example@abc.com",
+  email: "solvionis@gmail.com ",
   phone: "+91-9381452155",
   address:
-    "R seenappa, site.no-26, Tc 12th palya cross, vinayaka layout battarahalli, karnataka, 560049.",
+    " R SEENAPPA, SITE NO-26, TC PALYA CROSS, 1 VINAYAKA LAYOUT, BATTRAHALLI, 560049. ",
+  instagram: "https://www.instagram.com/solvionis/?hl=en",
+  linkedin: " https://www.linkedin.com/in/solvionis-technologies-a517b4343/",
+  x: "https://x.com/solvionis",
 };
 
 export const ourServices = [
@@ -146,42 +149,49 @@ export const ourServices = [
 
 export const whatWeDo = [
   {
+    id: 1,
     title: "Web Development",
     description:
       "Your website is a critical part of your business, and we build websites that not only look great but also perform flawlessly. Whether it’s a simple informational site or a complex e-commerce platform, we craft solutions that are both functional and engaging.",
     icon: <FaDesktop />,
   },
   {
+    id: 2,
     title: "Mobile App Development",
     description:
       "Reach your customers on the go with high-performance mobile apps. Our development team creates apps for both iOS and Android platforms, designed to provide seamless experiences for your users.",
     icon: <FaMobileAlt />,
   },
   {
+    id: 3,
     title: "Cloud Computing Services",
     description:
       "Move your business to the cloud with ease. Our cloud services help you optimize infrastructure, increase efficiency, and scale your operations securely and cost-effectively.",
     icon: <FaCloud />,
   },
   {
+    id: 4,
     title: "Game Development",
     description:
       "We create engaging, interactive games that captivate players across multiple platforms, including mobile, console, and VR/AR. From concept to execution, we bring your ideas to life.",
     icon: <FaGamepad />,
   },
   {
+    id: 6,
     title: "Artificial Intelligence",
     description:
       "We help businesses harness the power of AI to automate processes, make smarter decisions, and create personalized customer experiences.",
     icon: <FaRobot />,
   },
   {
+    id: 5,
     title: "Cybersecurity Services",
     description:
       "In today’s digital world, security is paramount. Our cybersecurity solutions protect your business from threats, ensuring your data and systems remain safe.",
     icon: <FaShieldAlt />,
   },
   {
+    id: 7,
     title: "Cloud Migration",
     description:
       "Transitioning to the cloud can be a complex process, but our team ensures the migration is smooth and seamless, with minimal disruption to your daily operations.",

@@ -121,6 +121,23 @@
     }
   }
 }
+.service-box_text {
+  display: -webkit-box; // Enables the flexible box layout
+  -webkit-box-orient: vertical; // Sets the orientation to vertical
+  overflow: hidden; // Hides overflowing text
+  text-overflow: ellipsis; // Adds the ellipsis
+  -webkit-line-clamp: 4; // Limits the text to 4 lines
+  line-height: 1.5rem; // Adjust this to match the spacing between lines
+  max-height: calc(4 * 1.5rem); // Ensures the height matches 4 lines
+}
+.service-box_content{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 350px;
+
+}
 
 /* Service Card 02 ---------------------------------- */
 .service-box {
@@ -130,6 +147,11 @@
   padding: 50px 40px 40px 40px;
   margin-top: 35px;
   margin-bottom: 40px;
+  min-height: 400px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   @media (max-width: 1699px) {
     padding: 30px;

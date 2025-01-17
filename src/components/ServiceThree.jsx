@@ -62,7 +62,7 @@ const ServiceThree = () => {
         <div className="row gx-30 global-carousel service-slider2">
           <Slider {...settings}>
             {whatWeDo.map((obj) => (
-              <div className="p-3" key={obj.title}>
+              <div className="p-3" key={obj.title} style={{ height: "100%" }}>
                 <div className="service-box">
                   <div className="service-box_content">
                     <div className="service-box_icon">
@@ -77,7 +77,7 @@ const ServiceThree = () => {
                     </h4>
                     <p className="service-box_text">{obj.description}</p>
                     <Link
-                      to="/service-details"
+                      to={`/service/${obj.id}`}
                       className="global-btn style-border"
                     >
                       Read More{" "}
@@ -90,110 +90,6 @@ const ServiceThree = () => {
                 </div>
               </div>
             ))}
-            {/* <div className="p-3">
-              <div className="service-box">
-                <div className="service-box_content">
-                  <div className="service-box_icon">
-                    <img src="assets/img/icon/service-icon_1-2.svg" alt="img" />
-                  </div>
-                  <h4 className="service-box_title h5">
-                    <Link to="/service-details">Business Growth Catalyst</Link>
-                  </h4>
-                  <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
-                  </p>
-                  <Link
-                    to="/service-details"
-                    className="global-btn style-border"
-                  >
-                    Read More
-                    <img
-                      src="assets/img/icon/right-icon2.svg"
-                      alt="SOLVIONIS"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="p-3">
-              <div className="service-box">
-                <div className="service-box_content">
-                  <div className="service-box_icon">
-                    <img src="assets/img/icon/service-icon_1-3.svg" alt="img" />
-                  </div>
-                  <h4 className="service-box_title h5">
-                    <Link to="/service-details">Profitability Maximizers</Link>
-                  </h4>
-                  <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
-                  </p>
-                  <Link
-                    to="/service-details"
-                    className="global-btn style-border"
-                  >
-                    Read More
-                    <img
-                      src="assets/img/icon/right-icon2.svg"
-                      alt="SOLVIONIS"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="p-3">
-              <div className="service-box">
-                <div className="service-box_content">
-                  <div className="service-box_icon">
-                    <img src="assets/img/icon/service-icon_1-4.svg" alt="img" />
-                  </div>
-                  <h4 className="service-box_title h5">
-                    <Link to="/service-details">Efficiency Experts</Link>
-                  </h4>
-                  <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
-                  </p>
-                  <Link
-                    to="/service-details"
-                    className="global-btn style-border"
-                  >
-                    Read More
-                    <img
-                      src="assets/img/icon/right-icon2.svg"
-                      alt="SOLVIONIS"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="p-3">
-              <div className="service-box">
-                <div className="service-box_content">
-                  <div className="service-box_icon">
-                    <img src="assets/img/icon/service-icon_1-1.svg" alt="img" />
-                  </div>
-                  <h4 className="service-box_title h5">
-                    <Link to="/service-details">Strategic Solutions Pro</Link>
-                  </h4>
-                  <p className="service-box_text">
-                    Use receiving acco growin number of currencies and get paid
-                    lik
-                  </p>
-                  <Link
-                    to="/service-details"
-                    className="global-btn style-border"
-                  >
-                    Read More
-                    <img
-                      src="assets/img/icon/right-icon2.svg"
-                      alt="SOLVIONIS"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div> */}
           </Slider>
         </div>
       </div>

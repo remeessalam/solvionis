@@ -115,7 +115,7 @@ const TestimonialTwo = () => {
                           <div className="testi-box-profile">
                             <div className="testi-box-profile-details">
                               <h4 className="testi-profile-title">
-                                {obj.name} -{obj.position}
+                                {obj.name} - {obj.position}
                               </h4>
                             </div>
                             <div className="testi-profile_thumb">
