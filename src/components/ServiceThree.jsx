@@ -73,7 +73,7 @@ const ServiceThree = () => {
                       /> */}
                     </div>
                     <h4 className="service-box_title h5">
-                      <Link to="/service-details">{obj.title}</Link>
+                      <Link to={`/service/${obj.id}`}>{obj.title}</Link>
                     </h4>
                     <p className="service-box_text">{obj.description}</p>
                     <Link
